@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+img.rollover {
+    width: 200px;
+    height: auto;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+.profile-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.invisible-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.invisible-table td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+.visible-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.visible-table th, .visible-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.visible-table th {
+    background-color: #f2f2f2;
+}
+
+.paper-thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label, input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+fieldset {
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: purple;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    bottom: 10px;
+    width: 100%;
+}
+.box-model {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+    position: relative;
+}
+.box-model img{
+    width:300px ;
+    height: 200px;
+}
